@@ -8,6 +8,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   min-width: 100%;
+  background: #002727;
+  color: aliceblue;
   font-family: "Poppins", sans-serif;
 }
 .container {
@@ -34,6 +36,16 @@ body {
 }
 
 .start a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background: #002727;
+  border: 1px solid #459592;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: azure;
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
+}
+.start a:hover {
+  background: #459592;
 }
